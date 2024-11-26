@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import logo from '../../assets/images/icon.png'
+import logo from '@assets/images/icon.png'
 
 export const Logo = component$(() => {
   return (

@@ -3,6 +3,7 @@ import pkg from "./package.json";
 import { qwikVite } from "@builder.io/qwik/optimizer";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { qwikCity } from '@builder.io/qwik-city/vite';
+import path from "path";
 
 
 const { dependencies = {}, peerDependencies = {} } = pkg as any;
@@ -34,5 +35,10 @@ export default defineConfig(() => {
     },
     plugins: [qwikVite(),      qwikCity(),
       tsconfigPaths()],
+    resolve: {
+      alias: {
+        '@assets': path.resolve(__dirname, './src/assets')
+      }
+    }
   };
 });
