@@ -1,17 +1,18 @@
-import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import { component$ } from '@builder.io/qwik';
+import { QwikCityProvider, RouterOutlet } from '@builder.io/qwik-city';
+import './global.css';
 
-export default () => {
+export default component$(() => {
   return (
-    <>
+    <QwikCityProvider>
       <head>
         <meta charset="utf-8" />
-        <title>Qwik Blank App</title>
+        <title>Drak Earning</title>
+        <meta name="description" content="Earn while reading what you love!" />
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <RouterOutlet />
       </body>
-    </>
+    </QwikCityProvider>
   );
-};
+});
