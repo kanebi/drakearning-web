@@ -1,17 +1,18 @@
-import logo from '@assets/images/icon.png'
+import Link from 'next/link';
+import logo from '../../assets/images/icon.png'
 import Image from 'next/image'
 
 export const Logo = () => {
   return (
     <div>
-      <a href="/">
+      <Link href="/">
         <Image  
           alt="Drak logo"
-          width={100}
-          height={107}
+          width={150}
+          height={150}
           src={logo}
         />
-      </a>
+      </Link>
     </div>
   );
 };
