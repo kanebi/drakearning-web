@@ -1,0 +1,52 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-42372ed130431b0a.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/x9hEZTta9R1t0PPt_X24T/_buildManifest.js",
+    "static/x9hEZTta9R1t0PPt_X24T/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/_app": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/_app-62ff9594266cbbd0.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/_error-fde50cb7f1ab27e0.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/about/page-280f0c16ac1bd4c3.js"
+    ],
+    "/faq/page": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/faq/page-11ba6fc14a547dee.js"
+    ],
+    "/policy/page": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/policy/page-cc3f60fbb701b1e3.js"
+    ],
+    "/terms/page": [
+      "static/chunks/webpack-b66ed8ba6f029a99.js",
+      "static/chunks/framework-e78c0713ba93908d.js",
+      "static/chunks/main-eeb5a3811033f7e0.js",
+      "static/chunks/pages/terms/page-97a50915466d82d3.js"
+    ]
+  },
+  "ampFirstPages": []
+}
