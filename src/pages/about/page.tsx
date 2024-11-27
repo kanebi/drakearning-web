@@ -8,7 +8,7 @@ const AboutPage = () => {
       </h1>
       <div className="space-y-4">
         <p>
-          Welcome to our platform! We're dedicated to creating a vibrant community where users can engage, 
+          Welcome to our platform! We&apos;re dedicated to creating a vibrant community where users can engage, 
           share, and connect with others who share similar interests.
         </p>
         <h2 className="text-xl font-semibold mt-6 mb-2">Our Platform</h2>
@@ -26,10 +26,12 @@ const AboutPage = () => {
           <li>Partnership programs with trusted brands</li>
         </ul>
         <p className="mt-4">
-          We're committed to maintaining transparency about our business model while ensuring that 
+          We&apos;re committed to maintaining transparency about our business model while ensuring that 
           advertisements and monetization efforts never compromise the quality of your experience.
         </p>
       </div>
     </div>
   );
 };
+
+export default AboutPage;
